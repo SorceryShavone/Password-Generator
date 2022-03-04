@@ -41,15 +41,6 @@ h2.title {
 
 
 
-.viewbox {
-        width: 100%;
-        height: 100%;
-        background: #E68B03;
-        border-radius: 8px;
-        color: #fff;
-        text-align: center;
-        line-height: 65px;
-    }
     #copy-btn {
         position: absolute;
         top: var(--y);
@@ -65,12 +56,12 @@ h2.title {
     position: relative;
     width: 100%;
     height: 55px;
-display: flex;
-justify-content: center;
-align-items: center;
-background: #E68B03;
-border-radius: 8px;
-margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E68B03;
+    border-radius: 8px;
+    margin: 30px 0;
 }
 
 #slider {
