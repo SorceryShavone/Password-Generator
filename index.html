@@ -12,14 +12,14 @@
     <div class="container">
         <h2 class="title">Password Generator</h2>
         <div class="result">
-            <div class="result__title field-title">Generated Password: <span id="showResult"> </span> </div>
+            <div class="result__title field-title">Generated Password: <span id="showResult"> </span>  </div>
             <!-- 
             <div class="result__info right">click to copy</div>
             <div class="result__info left">copied</div>
             <div class="result__viewbox" id="result">GENERATE PASSWORD</div>
             -->
-            <button id="clipboardCopy" style="--x: 0; --y: 0">Copy Password</button>
-        
+            <button id="clipboardCopy" class="clipboardCopyStyle" on.clickvalue="myFunction()" style="--x: 0; --y: 0">Copy Password</button>
+            
         </div>
         <div class="length range__slider" data-min="4" data-max="32">
             <div class="length__title field-title" data-length='0'>length:</div>
